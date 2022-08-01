@@ -9,7 +9,7 @@
 - execute docker-compose build
 - execute docker-compose up db
 - execute docker exec -it curriers_app_1 alembic upgrade head
-- enjoy!
+- enjoy server on http://127.0.0.1:8099/docs!
 
 
 - to stop - press CTRL+C
