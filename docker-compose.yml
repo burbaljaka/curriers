@@ -1,0 +1,22 @@
+version: "3.2"
+
+services:
+  db:
+#    image: postgres:13.4-alpine
+    image: postgis/postgis:latest
+    environment:
+      POSTGRES_PASSWORD: dev
+      POSTGRES_DB: dev
+      POSTGRES_USER: dev_acc
+    ports:
+      - "5555:5432"
+
+
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8099:8000"
+    depends_on:
+      - db

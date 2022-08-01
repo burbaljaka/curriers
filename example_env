@@ -1,0 +1,2 @@
+ALEMBIC_DATABASE_URL=postgresql://dev_acc:dev@localhost:5555/dev
+MAIN_DATABASE_URL=postgresql+asyncpg://dev_acc:dev@localhost:5555/dev
