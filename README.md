@@ -15,7 +15,6 @@
 - to stop - press CTRL+C
 
 ## Usage
-All url info could be found on http://127.0.0.1:8000/docs
 
 Additionally you can seed the db by hitting POST /seed_db/ url to place 3 initial zones to the db
 
